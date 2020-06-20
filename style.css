@@ -1,0 +1,30 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(media/Abstract.jpg);
+    background-size: 450px 450px;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Nav-Bar
+{
+    background: rgb(0,0,100);
+    text-align: center;
+}
+.Nav-Bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.Nav-Bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
