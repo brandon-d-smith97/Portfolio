@@ -28,3 +28,36 @@ body
     margin: 15px;
     padding: 15px;
 }
+.Nav-Bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .Nav-Bar ul li:hover
+{
+    background: #056347;
+    border-radius: 3px;
+}
+.leisureDrop
+{
+    display: none;
+     
+}
+.Nav-Bar ul li:hover .leisureDrop
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,0,100);
+    margin-top: 15px;
+    margin-left: -15px
+}
+.Nav-Bar ul li:hover .leisureDrop ul
+{
+    display: block;
+    margin: 10px;
+}
+.Nav-Bar ul li:hover .leisureDrop ul li
+{
+    width: 150px;
+    padding: 10px;
+}
